@@ -8,10 +8,13 @@ MP1
 Source Files:
 Drawing.java
 
-References:
-I asked ChatGPT questions regarding using a for loop to output 2D arrays (this was before we did a lecture on 2D arrays),
-if you can output the index of a 2D array, if you use .replace in order to change the element, and how to output an array next 
-to a 2D array.
-https://chat.openai.com/share/2911c130-7d26-4139-a086-85654400c808
+Description:
+In this program, a canvas is created using a 2D array in the method CreateCanvas. Through main, characters are added onto the canvas by calling the addCharacter method and then outputting the final "painting" in the printCanvas method. Note, that you are able to easily make this with user input as the code is created for any # of rows and # of columns.
 
-I got additional help from Dr. Elia through slack and in office hours.
+Output: 
+4 + = = = = = = = = + 
+3 |                 | 
+2 |       < 3       | 
+1 |                 | 
+0 + = = = = = = = = + 
+  0 1 2 3 4 5 6 7 8 9
